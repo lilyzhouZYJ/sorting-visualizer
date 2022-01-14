@@ -1,3 +1,5 @@
+/* Font */
+
 body {
     font-family: 'Maven Pro', sans-serif;
 }
@@ -6,23 +8,25 @@ button {
     font-family: 'Maven Pro', sans-serif;
 }
 
-#array-container {
-    height: 650px;
-}
 
-.array-bar {
-    margin: 0 1px;
-    display: inline-block;
-    vertical-align: top;
-}
+
+/* Nav Bar */
 
 #buttons-bar {
     background-color: lightgrey;
     box-sizing: border-box;
     height: 70px;
     width: 100%;
-    padding: 15px;
+    padding: 15px 150px;
     margin-bottom: 30px;
+}
+
+#buttons-bar #generate-array {
+    float: left;
+}
+
+#buttons-bar #sort-buttons {
+    float: right;
 }
 
 #buttons-bar button {
@@ -45,5 +49,22 @@ button {
 }
 
 #buttons-bar input {
-    margin-left: 5px;
+    margin-left: 10px;
+    width: 80px;
 }
+
+
+
+
+
+
+#array-container {
+    height: 650px;
+}
+
+.array-bar {
+    margin: 0 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
