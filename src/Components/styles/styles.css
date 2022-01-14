@@ -1,0 +1,49 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+button {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+#array-container {
+    height: 650px;
+}
+
+.array-bar {
+    margin: 0 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#buttons-bar {
+    background-color: lightgrey;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+#buttons-bar button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+#buttons-bar button:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+#buttons-bar label {
+    padding: 10px;
+}
+
+#buttons-bar input {
+    margin-left: 5px;
+}
